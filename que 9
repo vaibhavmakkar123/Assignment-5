@@ -1,0 +1,18 @@
+while True :
+    x=input("enter the word to be entered in the list")
+    a.append(x)
+    y=input("do you want to add more :")
+    if y.upper() =="N" :
+        break
+for i in a :
+    g=0
+    n=0
+    if (i=='---') :
+        continue
+
+    for j in a:
+        if (i==j):
+            n=n+1
+            a[g] ='---'
+        g=g+1
+    print(i,"occured", n , "times")
