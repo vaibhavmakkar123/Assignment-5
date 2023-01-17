@@ -1,0 +1,12 @@
+import math
+a=int(input("first side"))
+b=int(input("second sie"))
+c=int(input("third side"))
+d=(a+b+c)/2
+e= a + b
+if e >c :
+   f=math.sqrt(d*(d-a)*(d-b)*(d-c) )
+   print(f)
+
+else :
+    print("triangle not possible")
